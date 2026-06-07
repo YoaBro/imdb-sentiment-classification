@@ -1,0 +1,33 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local notebook exports and caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environment and build artifacts
+env/
+venv/
+dist/
+build/
+*.egg-info/
+
+# Optional local secrets or environment files
+.env
+.env.*
+
+# Redundant or archived project artifacts
+executed.ipynb
+previous versions/
+
+# Keep generated figures if they are part of the report, but ignore ad-hoc scratch outputs
+scratch_*.png
+scratch_*.jpg
+scratch_*.jpeg
