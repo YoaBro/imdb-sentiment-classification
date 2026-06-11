@@ -5,7 +5,7 @@ machine learning, and neural networks on binary sentiment classification.
 
 The project uses the public Keras IMDB dataset and is intentionally scoped as
 an educational benchmark: the goal is to measure what additional model
-complexity contributes on the same task, not to present a production system.
+complexity contributes on the same task.
 
 ## Results
 
